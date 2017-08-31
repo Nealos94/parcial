@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <iostream>
+#include <conio.h>
+
+struct proveedores{
+char nombre [30];
+int telefono [10];
+char direccion [20];
+struct productos;
+
+};
+
+
+struct productos{
+	int cantidad; 
+	int precio;
+	int importe; 
+};
+
+
+
+
+int main() {
+	struct proveedores();
+	printf("ingrese el nombre del proveedor \n");
+	scanf("%s",&nombre);
+	printf("ingrese el telefon del proveedor \n");
+	scanf("%d",&telefono);
+	printf("ingrese la direccion del proveedor \n");
+	
+	
+	
+	
+	
+	
+	
+	return 0;
+}
